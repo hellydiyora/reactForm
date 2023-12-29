@@ -1,0 +1,91 @@
+.App
+{
+  display: flex;
+  flex-direction: column;
+}
+.Header
+{
+  position:sticky;
+  z-index: 100;
+  width:100%;
+  background-color: rgb(119, 107, 93 );
+  display:grid;
+  grid-template-columns: auto auto auto;
+  align-items: center;
+  top: 0;
+  height:100px;
+}
+.First {
+  grid-column-start: 1;
+  grid-column-end: 3;
+}
+.Second
+{
+  text-align: right;
+  margin-right: 10px;
+}
+.Container {
+  display: flex;
+  flex-direction: row;
+  
+}
+.Card {
+  grid-column-start: 2;
+  grid-column-end: 4;
+}
+.Card {
+  align-items: center;
+  justify-content: center;
+  transition: margin-left 0.3s;
+  flex: 1; 
+}
+.Navbar {
+  position: sticky;
+  z-index: 50;
+  background-color: rgb(176, 166, 149, 0.5);
+  width: 150px;
+  left: 0;
+  top: 100px;  
+  transition: width 0.3s;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  height:100vh;
+}
+
+ul{
+  list-style: none;
+  text-align: center;
+  padding:0px;
+}
+
+@media screen and (max-width: 1209px) {
+  .Navbar {
+    width: 100px;
+  }
+
+}
+@media screen and (max-width: 563px) {
+  .Navbar {
+    width: 50px;
+  }
+  .First{
+    font-size: 25px;
+  }
+  .Second
+  {
+    font-size: 15px;
+  }
+}
+@media screen and (max-width: 363px) {
+  .Navbar {
+    display:none;
+  }
+  .First{
+    font-size: 15px;
+  }
+  .Second
+  {
+    font-size: 10px;
+  }
+}
