@@ -29,3 +29,10 @@ Ensure you have **Node.js** and **npm** installed.
    ```sh
    npm start
 4. Open http://localhost:3000 to view the form in your browser.
+
+### Usage
+Fill in the form fields.
+Submit the form to see validation in action.
+Error messages appear for incorrect or missing inputs.
+
+
