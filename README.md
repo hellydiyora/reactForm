@@ -22,3 +22,10 @@ Ensure you have **Node.js** and **npm** installed.
    ```sh
    git clone https://github.com/your-username/react-form-validation.git
    cd react-form-validation
+2. **Install dependencies**
+   ```sh
+   npm install
+3. **Run Project**
+   ```sh
+   npm start
+4. Open http://localhost:3000 to view the form in your browser.
